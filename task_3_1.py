@@ -20,5 +20,5 @@ for num in range(2, 99):
     if num % 9 == 0:
         count_multiples[7] += 1
 
-for i in range(7):
+for i in range(8):
     print(f'Цифра {i + 2} встречается {count_multiples[i]} раз')
